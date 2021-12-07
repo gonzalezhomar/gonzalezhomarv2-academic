@@ -1,0 +1,1022 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_5462f967d208426487f535756c862c00 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_5462f967d208426487f535756c862c00" ></div>
+        
+</body>
+<script>    
+    
+            var map_5462f967d208426487f535756c862c00 = L.map(
+                "map_5462f967d208426487f535756c862c00",
+                {
+                    center: [20.972658157717838, -101.05460389352301],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 8,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_74cfcec17aa94b368f0da64c3ffe3eea = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_5462f967d208426487f535756c862c00);
+        
+    
+            var marker_cluster_3c31cbecdef84b39bdb20086131f6803 = L.markerClusterGroup(
+                {}
+            );
+            map_5462f967d208426487f535756c862c00.addLayer(marker_cluster_3c31cbecdef84b39bdb20086131f6803);
+        
+    
+            var marker_61623bd34f8c486c86c2c8767047d352 = L.marker(
+                [20.4462707, -101.529893],
+                {}
+            ).addTo(marker_cluster_3c31cbecdef84b39bdb20086131f6803);
+        
+    
+        var popup_4b837fedc07e4b81b7fd9af81dd27463 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_93f8059612944700a7c9a1463cbd5e9b = $(`<div id="html_93f8059612944700a7c9a1463cbd5e9b" style="width: 100.0%; height: 100.0%;"><strong>OFICINA: </strong>Abasolo  <strong>TELEFONO: </strong>429-693-02-28;   <strong>TITULAR: </strong>C. Sarai Monserrat Quintana Macias, squintana@guanajuato.gob.mx</div>`)[0];
+            popup_4b837fedc07e4b81b7fd9af81dd27463.setContent(html_93f8059612944700a7c9a1463cbd5e9b);
+        
+
+        marker_61623bd34f8c486c86c2c8767047d352.bindPopup(popup_4b837fedc07e4b81b7fd9af81dd27463)
+        ;
+
+        
+    
+    
+            var marker_8441789da9cf42dc909842d685282aee = L.marker(
+                [20.030983499999998, -100.718241],
+                {}
+            ).addTo(marker_cluster_3c31cbecdef84b39bdb20086131f6803);
+        
+    
+        var popup_dc53da54fd0b4dcbb4b260bd2b5e7096 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dc3d8b3ee98b4017bcd85cb4ae754aeb = $(`<div id="html_dc3d8b3ee98b4017bcd85cb4ae754aeb" style="width: 100.0%; height: 100.0%;"><strong>OFICINA: </strong>Acambaro  <strong>TELEFONO: </strong>417-172-10-37;   <strong>TITULAR: </strong>Lic. Lidia Ugalde Cardona, lugaldec@guanajuato.gob.mx</div>`)[0];
+            popup_dc53da54fd0b4dcbb4b260bd2b5e7096.setContent(html_dc3d8b3ee98b4017bcd85cb4ae754aeb);
+        
+
+        marker_8441789da9cf42dc909842d685282aee.bindPopup(popup_dc53da54fd0b4dcbb4b260bd2b5e7096)
+        ;
+
+        
+    
+    
+            var marker_37bc597971fe4b95bcc5a05e1a0b4237 = L.marker(
+                [20.4550935, -100.6209011],
+                {}
+            ).addTo(marker_cluster_3c31cbecdef84b39bdb20086131f6803);
+        
+    
+        var popup_ae76673fdd414860b0d15524b66ac6a6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3b638bbc6f8c4156992689056de9144e = $(`<div id="html_3b638bbc6f8c4156992689056de9144e" style="width: 100.0%; height: 100.0%;"><strong>OFICINA: </strong>Apaseo el Alto  <strong>TELEFONO: </strong>413-166-00-35;   <strong>TITULAR: </strong>Lic. Juan Carlos Bolanos Santana, jbolanoss@guanajuato.gob.mx</div>`)[0];
+            popup_ae76673fdd414860b0d15524b66ac6a6.setContent(html_3b638bbc6f8c4156992689056de9144e);
+        
+
+        marker_37bc597971fe4b95bcc5a05e1a0b4237.bindPopup(popup_ae76673fdd414860b0d15524b66ac6a6)
+        ;
+
+        
+    
+    
+            var marker_1dd1b8f01d8542c9b88385a197b78d21 = L.marker(
+                [20.546178, -100.6908431],
+                {}
+            ).addTo(marker_cluster_3c31cbecdef84b39bdb20086131f6803);
+        
+    
+        var popup_27822dca45bb42e696165fe3d2d2a3f0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fc152ffa481640a4993c25d5873066da = $(`<div id="html_fc152ffa481640a4993c25d5873066da" style="width: 100.0%; height: 100.0%;"><strong>OFICINA: </strong>Apaseo el Grande  <strong>TELEFONO: </strong>413-158-20-14;   <strong>TITULAR: </strong>L.A. Maricela Alba Ramirez, malbar@guanajuato.gob.mx</div>`)[0];
+            popup_27822dca45bb42e696165fe3d2d2a3f0.setContent(html_fc152ffa481640a4993c25d5873066da);
+        
+
+        marker_1dd1b8f01d8542c9b88385a197b78d21.bindPopup(popup_27822dca45bb42e696165fe3d2d2a3f0)
+        ;
+
+        
+    
+    
+            var marker_4407e5a6896d4921b7325f73036a4eff = L.marker(
+                [18.6813049, -99.10134980000001],
+                {}
+            ).addTo(marker_cluster_3c31cbecdef84b39bdb20086131f6803);
+        
+    
+        var popup_bb61578a840648d489899ab839d75d3b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3252a8cac5844789b205493caca2ee13 = $(`<div id="html_3252a8cac5844789b205493caca2ee13" style="width: 100.0%; height: 100.0%;"><strong>OFICINA: </strong>Cd. Manuel Doblado  <strong>TELEFONO: </strong>432-744-00-17;   <strong>TITULAR: </strong>Enc. Adriana Denisse Murillo Gallegos, amurillog@guanajuato.gob.mx</div>`)[0];
+            popup_bb61578a840648d489899ab839d75d3b.setContent(html_3252a8cac5844789b205493caca2ee13);
+        
+
+        marker_4407e5a6896d4921b7325f73036a4eff.bindPopup(popup_bb61578a840648d489899ab839d75d3b)
+        ;
+
+        
+    
+    
+            var marker_d5b0b3dfe04e48029f6d7b4b8e273ac1 = L.marker(
+                [20.521510600000003, -100.83134629999999],
+                {}
+            ).addTo(marker_cluster_3c31cbecdef84b39bdb20086131f6803);
+        
+    
+        var popup_20e4606e650941cdbe1766dad1dbd191 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e96598523b444fe987b76b0615373c5b = $(`<div id="html_e96598523b444fe987b76b0615373c5b" style="width: 100.0%; height: 100.0%;"><strong>OFICINA: </strong>Celaya I (Centro de Gobierno)  <strong>TELEFONO: </strong>461-159-84-50;   <strong>TITULAR: </strong>L.A.E. Adriana Camargo Gomez, acamargol@guanajuato.gob.mx</div>`)[0];
+            popup_20e4606e650941cdbe1766dad1dbd191.setContent(html_e96598523b444fe987b76b0615373c5b);
+        
+
+        marker_d5b0b3dfe04e48029f6d7b4b8e273ac1.bindPopup(popup_20e4606e650941cdbe1766dad1dbd191)
+        ;
+
+        
+    
+    
+            var marker_adcc268fe6ed4ad794ea0d42c18201ff = L.marker(
+                [20.5321668, -100.8358144],
+                {}
+            ).addTo(marker_cluster_3c31cbecdef84b39bdb20086131f6803);
+        
+    
+        var popup_d76e649e6b8243cf853dc350acc3e9e5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5d2642d6ffca4bf799b169851fae0577 = $(`<div id="html_5d2642d6ffca4bf799b169851fae0577" style="width: 100.0%; height: 100.0%;"><strong>OFICINA: </strong>Celaya II (Soriana)  <strong>TELEFONO: </strong>461-609-14-65;   <strong>TITULAR: </strong>Lic. Jose Michel Martinez Martinez, jmartinezme@guanajauto.gob.mx</div>`)[0];
+            popup_d76e649e6b8243cf853dc350acc3e9e5.setContent(html_5d2642d6ffca4bf799b169851fae0577);
+        
+
+        marker_adcc268fe6ed4ad794ea0d42c18201ff.bindPopup(popup_d76e649e6b8243cf853dc350acc3e9e5)
+        ;
+
+        
+    
+    
+            var marker_668baebf36a44bc5a7123aec452db318 = L.marker(
+                [39.1160085, -84.5024547],
+                {}
+            ).addTo(marker_cluster_3c31cbecdef84b39bdb20086131f6803);
+        
+    
+        var popup_f2804e2ad88c4943a6f3a81f577f5491 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3f36152ea1444fd9ae64ba4a6b413782 = $(`<div id="html_3f36152ea1444fd9ae64ba4a6b413782" style="width: 100.0%; height: 100.0%;"><strong>OFICINA: </strong>Comonfort  <strong>TELEFONO: </strong>412-156-20-09;   <strong>TITULAR: </strong>Lic. Maria Isabel Vargas Martinez, mvargas@guanajuato.gob.mx</div>`)[0];
+            popup_f2804e2ad88c4943a6f3a81f577f5491.setContent(html_3f36152ea1444fd9ae64ba4a6b413782);
+        
+
+        marker_668baebf36a44bc5a7123aec452db318.bindPopup(popup_f2804e2ad88c4943a6f3a81f577f5491)
+        ;
+
+        
+    
+    
+            var marker_2e851f84b7174c63b39ccec4ced047c4 = L.marker(
+                [20.720971, -100.76371540000001],
+                {}
+            ).addTo(marker_cluster_3c31cbecdef84b39bdb20086131f6803);
+        
+    
+        var popup_f39203381679478988c698d441b4787f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f5e881b5de8741f78c44d4b6a0eb80f3 = $(`<div id="html_f5e881b5de8741f78c44d4b6a0eb80f3" style="width: 100.0%; height: 100.0%;"><strong>OFICINA: </strong>Coroneo  <strong>TELEFONO: </strong>421-473-01-36;   <strong>TITULAR: </strong>Encargada: C. Andrea Aguilar Caballero, aaguilarca@guanajuato.gob.mx</div>`)[0];
+            popup_f39203381679478988c698d441b4787f.setContent(html_f5e881b5de8741f78c44d4b6a0eb80f3);
+        
+
+        marker_2e851f84b7174c63b39ccec4ced047c4.bindPopup(popup_f39203381679478988c698d441b4787f)
+        ;
+
+        
+    
+    
+            var marker_2a102789b7b24282b3b1a2f2f006ce43 = L.marker(
+                [32.532093599999996, -117.0352732],
+                {}
+            ).addTo(marker_cluster_3c31cbecdef84b39bdb20086131f6803);
+        
+    
+        var popup_f6022cf995294938bed24ea431f3b6e0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9eae8004488d4d76b0dae01840ce8652 = $(`<div id="html_9eae8004488d4d76b0dae01840ce8652" style="width: 100.0%; height: 100.0%;"><strong>OFICINA: </strong>Cortazar  <strong>TELEFONO: </strong>411-155-00-11;   <strong>TITULAR: </strong>L.A.P. Daniela Maria Maldonado Milantoni, damaldonadom@guanajuato.gob.mx</div>`)[0];
+            popup_f6022cf995294938bed24ea431f3b6e0.setContent(html_9eae8004488d4d76b0dae01840ce8652);
+        
+
+        marker_2a102789b7b24282b3b1a2f2f006ce43.bindPopup(popup_f6022cf995294938bed24ea431f3b6e0)
+        ;
+
+        
+    
+    
+            var marker_03722b6514c5406c94a40c6654e87c5c = L.marker(
+                [20.6276384, -101.6704671],
+                {}
+            ).addTo(marker_cluster_3c31cbecdef84b39bdb20086131f6803);
+        
+    
+        var popup_fbc62d9442844bb2b2b02b8ff8e82c14 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a6fa8659c8eb43dd988e3b711c3e06fb = $(`<div id="html_a6fa8659c8eb43dd988e3b711c3e06fb" style="width: 100.0%; height: 100.0%;"><strong>OFICINA: </strong>Cueramaro  <strong>TELEFONO: </strong>429-694-01-27;   <strong>TITULAR: </strong>Lic. Maria Cristina Hernandez Garcia, mhernandezga@guanajuato.gob.mx</div>`)[0];
+            popup_fbc62d9442844bb2b2b02b8ff8e82c14.setContent(html_a6fa8659c8eb43dd988e3b711c3e06fb);
+        
+
+        marker_03722b6514c5406c94a40c6654e87c5c.bindPopup(popup_fbc62d9442844bb2b2b02b8ff8e82c14)
+        ;
+
+        
+    
+    
+            var marker_49d66f28fffb456ba7773f86a62b7441 = L.marker(
+                [21.1419071, -100.32156040000001],
+                {}
+            ).addTo(marker_cluster_3c31cbecdef84b39bdb20086131f6803);
+        
+    
+        var popup_fc74eb601f4346be81a2ccd6c608d64c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8aafc06f2e2247419c49b6eb33809acf = $(`<div id="html_8aafc06f2e2247419c49b6eb33809acf" style="width: 100.0%; height: 100.0%;"><strong>OFICINA: </strong>Doctor Mora  <strong>TELEFONO: </strong>419-193-00-15;   <strong>TITULAR: </strong>L.A.E. Benjamin Baca Pena, bbacap@guanajuato.gob.mx</div>`)[0];
+            popup_fc74eb601f4346be81a2ccd6c608d64c.setContent(html_8aafc06f2e2247419c49b6eb33809acf);
+        
+
+        marker_49d66f28fffb456ba7773f86a62b7441.bindPopup(popup_fc74eb601f4346be81a2ccd6c608d64c)
+        ;
+
+        
+    
+    
+            var marker_c53a684cc68146dfa7ca001c6c4b1842 = L.marker(
+                [21.153382999999998, -100.93332170000001],
+                {}
+            ).addTo(marker_cluster_3c31cbecdef84b39bdb20086131f6803);
+        
+    
+        var popup_31c06af776b645fb94e81ec9da7439a3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_30e5fcdfb7fe4a298cc6ba9863f73374 = $(`<div id="html_30e5fcdfb7fe4a298cc6ba9863f73374" style="width: 100.0%; height: 100.0%;"><strong>OFICINA: </strong>Dolores Hidalgo  <strong>TELEFONO: </strong>418-182-70-16;   <strong>TITULAR: </strong>Lic. Mayra Estela Licea Aguilar, mliceaa@guanajuato.gob.mx</div>`)[0];
+            popup_31c06af776b645fb94e81ec9da7439a3.setContent(html_30e5fcdfb7fe4a298cc6ba9863f73374);
+        
+
+        marker_c53a684cc68146dfa7ca001c6c4b1842.bindPopup(popup_31c06af776b645fb94e81ec9da7439a3)
+        ;
+
+        
+    
+    
+            var marker_04846f60a5ef41f9ac8807183529c825 = L.marker(
+                [21.0135621, -101.26142879999999],
+                {}
+            ).addTo(marker_cluster_3c31cbecdef84b39bdb20086131f6803);
+        
+    
+        var popup_f1c0f47c0d4b48e19e7da671b180389a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aa369d253bff4ddd96aca3206dc9cee6 = $(`<div id="html_aa369d253bff4ddd96aca3206dc9cee6" style="width: 100.0%; height: 100.0%;"><strong>OFICINA: </strong>Guanajuato  <strong>TELEFONO: </strong>473-731-01-54;   <strong>TITULAR: </strong>Lic. Georgina Anabell Orozco Morales, gorozcomo@guanajuato.gob.mx</div>`)[0];
+            popup_f1c0f47c0d4b48e19e7da671b180389a.setContent(html_aa369d253bff4ddd96aca3206dc9cee6);
+        
+
+        marker_04846f60a5ef41f9ac8807183529c825.bindPopup(popup_f1c0f47c0d4b48e19e7da671b180389a)
+        ;
+
+        
+    
+    
+            var marker_1594e32b456e4ef1b5035292365bd39b = L.marker(
+                [21.0057428, -101.8462291],
+                {}
+            ).addTo(marker_cluster_3c31cbecdef84b39bdb20086131f6803);
+        
+    
+        var popup_a9509ca968c14016901c9c249e8c3223 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_20036b2bc7534d5e874bab3c8647fd8b = $(`<div id="html_20036b2bc7534d5e874bab3c8647fd8b" style="width: 100.0%; height: 100.0%;"><strong>OFICINA: </strong>Huanimaro  <strong>TELEFONO: </strong>429-691-00-19;   <strong>TITULAR: </strong>Lic. Gloria Esther Ramirez Medina, geramirezm@guanajuato.gob.mx</div>`)[0];
+            popup_a9509ca968c14016901c9c249e8c3223.setContent(html_20036b2bc7534d5e874bab3c8647fd8b);
+        
+
+        marker_1594e32b456e4ef1b5035292365bd39b.bindPopup(popup_a9509ca968c14016901c9c249e8c3223)
+        ;
+
+        
+    
+    
+            var marker_8aa723f9d31a4b5886ccd187b2f6a70f = L.marker(
+                [20.7157698, -101.3344227],
+                {}
+            ).addTo(marker_cluster_3c31cbecdef84b39bdb20086131f6803);
+        
+    
+        var popup_726fdd6e5be849c884875fc3911f8fec = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0117628e7c8942c7a8e110c76dafb13a = $(`<div id="html_0117628e7c8942c7a8e110c76dafb13a" style="width: 100.0%; height: 100.0%;"><strong>OFICINA: </strong>Irapuato I (Centro de Gobierno)  <strong>TELEFONO: </strong>462-607-45-00 Conmutador;   <strong>TITULAR: </strong>Coordinador: LAE. Ismael Ignacio Magdaleno Ortiz,  imagdalenoo@guanajuato.gob.mx</div>`)[0];
+            popup_726fdd6e5be849c884875fc3911f8fec.setContent(html_0117628e7c8942c7a8e110c76dafb13a);
+        
+
+        marker_8aa723f9d31a4b5886ccd187b2f6a70f.bindPopup(popup_726fdd6e5be849c884875fc3911f8fec)
+        ;
+
+        
+    
+    
+            var marker_d8439fa6e2d84ebc8c4ba8d575a5ad34 = L.marker(
+                [20.6828454, -101.3782489],
+                {}
+            ).addTo(marker_cluster_3c31cbecdef84b39bdb20086131f6803);
+        
+    
+        var popup_8a33e08f1bc44c1a86a23426a6790f17 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2a71cf8a0a2247b28a222c0959b0490b = $(`<div id="html_2a71cf8a0a2247b28a222c0959b0490b" style="width: 100.0%; height: 100.0%;"><strong>OFICINA: </strong>Irapuato II (4 Vias)  <strong>TELEFONO: </strong>462-104-90-40;   <strong>TITULAR: </strong>C.P. Santa Ofelia Lopez Cardenas, slopezc@guanajuato.gob.mx</div>`)[0];
+            popup_8a33e08f1bc44c1a86a23426a6790f17.setContent(html_2a71cf8a0a2247b28a222c0959b0490b);
+        
+
+        marker_d8439fa6e2d84ebc8c4ba8d575a5ad34.bindPopup(popup_8a33e08f1bc44c1a86a23426a6790f17)
+        ;
+
+        
+    
+    
+            var marker_cafcea14bf424d12913f7e06622690ac = L.marker(
+                [25.6780368, -100.3133067],
+                {}
+            ).addTo(marker_cluster_3c31cbecdef84b39bdb20086131f6803);
+        
+    
+        var popup_aba9aeeef6f74bb1befbee08fcdf81a4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dbb42dbebdc54e4fa96f11a5c3b1b0bf = $(`<div id="html_dbb42dbebdc54e4fa96f11a5c3b1b0bf" style="width: 100.0%; height: 100.0%;"><strong>OFICINA: </strong>Jaral del Progreso  <strong>TELEFONO: </strong>411-661-01-46;   <strong>TITULAR: </strong>Lic. Adriana del Carmen Flores Garcia, acfloresg@guanajuato.gob.mx</div>`)[0];
+            popup_aba9aeeef6f74bb1befbee08fcdf81a4.setContent(html_dbb42dbebdc54e4fa96f11a5c3b1b0bf);
+        
+
+        marker_cafcea14bf424d12913f7e06622690ac.bindPopup(popup_aba9aeeef6f74bb1befbee08fcdf81a4)
+        ;
+
+        
+    
+    
+            var marker_d7f0650470a247febe2d6db9208215a0 = L.marker(
+                [20.160159699999998, -100.51078009999999],
+                {}
+            ).addTo(marker_cluster_3c31cbecdef84b39bdb20086131f6803);
+        
+    
+        var popup_934ec0b7ad654b5cab74728f49b53cd4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d1c41b6f121c41488556fff565fd1ac0 = $(`<div id="html_d1c41b6f121c41488556fff565fd1ac0" style="width: 100.0%; height: 100.0%;"><strong>OFICINA: </strong>Jerecuaro  <strong>TELEFONO: </strong>421-476-01-25;   <strong>TITULAR: </strong>Lic. Avigail Correa Estrada, acorreae@guanajuato.gob.mx</div>`)[0];
+            popup_934ec0b7ad654b5cab74728f49b53cd4.setContent(html_d1c41b6f121c41488556fff565fd1ac0);
+        
+
+        marker_d7f0650470a247febe2d6db9208215a0.bindPopup(popup_934ec0b7ad654b5cab74728f49b53cd4)
+        ;
+
+        
+    
+    
+            var marker_77ac80ac3bd24928b0d41dea50986535 = L.marker(
+                [20.643373899999997, -100.99434570000001],
+                {}
+            ).addTo(marker_cluster_3c31cbecdef84b39bdb20086131f6803);
+        
+    
+        var popup_fc693a43f8d74306bb388e77cfb28f56 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f84ddf85c6ba4b4684238210570d6bc9 = $(`<div id="html_f84ddf85c6ba4b4684238210570d6bc9" style="width: 100.0%; height: 100.0%;"><strong>OFICINA: </strong>Juventino Rosas  <strong>TELEFONO: </strong>412-157-21-75;   <strong>TITULAR: </strong>C.P. Luz Maria Rodriguez Sanchez, lrodriguezs@guanajuato.gob.mx</div>`)[0];
+            popup_fc693a43f8d74306bb388e77cfb28f56.setContent(html_f84ddf85c6ba4b4684238210570d6bc9);
+        
+
+        marker_77ac80ac3bd24928b0d41dea50986535.bindPopup(popup_fc693a43f8d74306bb388e77cfb28f56)
+        ;
+
+        
+    
+    
+            var marker_da37660a041249b9b54c87fc8e4ac964 = L.marker(
+                [21.0957095, -101.6171105],
+                {}
+            ).addTo(marker_cluster_3c31cbecdef84b39bdb20086131f6803);
+        
+    
+        var popup_c1548158c1414c11bb230d849bd1255a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f544bd4d5d934c6d98cbe6fff80c85df = $(`<div id="html_f544bd4d5d934c6d98cbe6fff80c85df" style="width: 100.0%; height: 100.0%;"><strong>OFICINA: </strong>Leon I (Centro de Gobierno)  <strong>TELEFONO: </strong>477-148-12-06;   <strong>TITULAR: </strong>Enc. C.P. Sergio Caballero Garcia, scaballeroga@guanajuato.gob.mx</div>`)[0];
+            popup_c1548158c1414c11bb230d849bd1255a.setContent(html_f544bd4d5d934c6d98cbe6fff80c85df);
+        
+
+        marker_da37660a041249b9b54c87fc8e4ac964.bindPopup(popup_c1548158c1414c11bb230d849bd1255a)
+        ;
+
+        
+    
+    
+            var marker_a3cbe80ecd2a43068e858fb8c25cedf4 = L.marker(
+                [21.147071, -101.64779140000002],
+                {}
+            ).addTo(marker_cluster_3c31cbecdef84b39bdb20086131f6803);
+        
+    
+        var popup_19e2ba5a584040e4b5a70e1a448a17db = L.popup({"maxWidth": "100%"});
+
+        
+            var html_91b13e60a3004f7b9dbc3b87bd8012d6 = $(`<div id="html_91b13e60a3004f7b9dbc3b87bd8012d6" style="width: 100.0%; height: 100.0%;"><strong>OFICINA: </strong>Leon II (Galerias Las Torres)  <strong>TELEFONO: </strong>477-148-12-06;   <strong>TITULAR: </strong>Lic. Yajaira Aranzazu Garcia Sanchez, yagarcias@guanajuato.gob.mx</div>`)[0];
+            popup_19e2ba5a584040e4b5a70e1a448a17db.setContent(html_91b13e60a3004f7b9dbc3b87bd8012d6);
+        
+
+        marker_a3cbe80ecd2a43068e858fb8c25cedf4.bindPopup(popup_19e2ba5a584040e4b5a70e1a448a17db)
+        ;
+
+        
+    
+    
+            var marker_dc63b1123dd444b3a64077d112b469bf = L.marker(
+                [35.049113299999995, -85.3121677],
+                {}
+            ).addTo(marker_cluster_3c31cbecdef84b39bdb20086131f6803);
+        
+    
+        var popup_0f57f878e1874cf8ab398ae1e714e843 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1e20eb69b001484b95945bdb0f72b952 = $(`<div id="html_1e20eb69b001484b95945bdb0f72b952" style="width: 100.0%; height: 100.0%;"><strong>OFICINA: </strong>Leon IV (Soriana Satelite)  <strong>TELEFONO: </strong>477-148-12-06;   <strong>TITULAR: </strong>Lic. Luis Calixto Zermeno Salazar, lzermeno@guanajuato.gob.mx</div>`)[0];
+            popup_0f57f878e1874cf8ab398ae1e714e843.setContent(html_1e20eb69b001484b95945bdb0f72b952);
+        
+
+        marker_dc63b1123dd444b3a64077d112b469bf.bindPopup(popup_0f57f878e1874cf8ab398ae1e714e843)
+        ;
+
+        
+    
+    
+            var marker_5dc67471b9b34512b459c4cbf2919aa7 = L.marker(
+                [21.140614000000003, -101.75443],
+                {}
+            ).addTo(marker_cluster_3c31cbecdef84b39bdb20086131f6803);
+        
+    
+        var popup_8919b0555757409eb67a23dc383f52ab = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4c12cf6229d64057bae36fae6217c1f9 = $(`<div id="html_4c12cf6229d64057bae36fae6217c1f9" style="width: 100.0%; height: 100.0%;"><strong>OFICINA: </strong>Leon V (Las Joyas)  <strong>TELEFONO: </strong>Supendido temporalmente;   <strong>TITULAR: </strong>C.P. Gloria Martinez Ruiz, gmartinezru@guanajuato.gob.mx</div>`)[0];
+            popup_8919b0555757409eb67a23dc383f52ab.setContent(html_4c12cf6229d64057bae36fae6217c1f9);
+        
+
+        marker_5dc67471b9b34512b459c4cbf2919aa7.bindPopup(popup_8919b0555757409eb67a23dc383f52ab)
+        ;
+
+        
+    
+    
+            var marker_fb1c07cc44994f05baa4da3c61a434d0 = L.marker(
+                [19.041439800000003, -98.20627270000001],
+                {}
+            ).addTo(marker_cluster_3c31cbecdef84b39bdb20086131f6803);
+        
+    
+        var popup_1ed5950008df4cafbf8b5fa7d591fcb8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_77f706333ab048cda24e3035124b5903 = $(`<div id="html_77f706333ab048cda24e3035124b5903" style="width: 100.0%; height: 100.0%;"><strong>OFICINA: </strong>Moroleon  <strong>TELEFONO: </strong>445-457-08-74;   <strong>TITULAR: </strong>Lic. Lorena Diaz Zavala, ldiazz@guanajuato.gob.mx</div>`)[0];
+            popup_1ed5950008df4cafbf8b5fa7d591fcb8.setContent(html_77f706333ab048cda24e3035124b5903);
+        
+
+        marker_fb1c07cc44994f05baa4da3c61a434d0.bindPopup(popup_1ed5950008df4cafbf8b5fa7d591fcb8)
+        ;
+
+        
+    
+    
+            var marker_b0eec77a010d426a9d9998571e9a26d0 = L.marker(
+                [21.650887100000002, -101.47650970000001],
+                {}
+            ).addTo(marker_cluster_3c31cbecdef84b39bdb20086131f6803);
+        
+    
+        var popup_e548ecfdf1f3464ca245a52006f59424 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b18de83b58ae41c882f574acb14ce5f2 = $(`<div id="html_b18de83b58ae41c882f574acb14ce5f2" style="width: 100.0%; height: 100.0%;"><strong>OFICINA: </strong>Ocampo  <strong>TELEFONO: </strong>428-683-00-66;   <strong>TITULAR: </strong>Lic. Alainn Rafael Rodriguez Manilla, arrodriguezm@guanajuato.gob.mx</div>`)[0];
+            popup_e548ecfdf1f3464ca245a52006f59424.setContent(html_b18de83b58ae41c882f574acb14ce5f2);
+        
+
+        marker_b0eec77a010d426a9d9998571e9a26d0.bindPopup(popup_e548ecfdf1f3464ca245a52006f59424)
+        ;
+
+        
+    
+    
+            var marker_58dd9022795f495ebc07d0f2b592b860 = L.marker(
+                [20.4276788, -101.7229127],
+                {}
+            ).addTo(marker_cluster_3c31cbecdef84b39bdb20086131f6803);
+        
+    
+        var popup_9a7eaf6b10534de2bc188378b6fcbc8f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_19450eab634f433eb7987a638cdb1b8e = $(`<div id="html_19450eab634f433eb7987a638cdb1b8e" style="width: 100.0%; height: 100.0%;"><strong>OFICINA: </strong>Penjamo  <strong>TELEFONO: </strong>469-692-00-17;   <strong>TITULAR: </strong>Ing. Maria Del Rosario Hernandez Sanchez,  mrhernandezs@guanajuato.gob.mx</div>`)[0];
+            popup_9a7eaf6b10534de2bc188378b6fcbc8f.setContent(html_19450eab634f433eb7987a638cdb1b8e);
+        
+
+        marker_58dd9022795f495ebc07d0f2b592b860.bindPopup(popup_9a7eaf6b10534de2bc188378b6fcbc8f)
+        ;
+
+        
+    
+    
+            var marker_bd7bee448c2648e2abeac1311dba5467 = L.marker(
+                [25.421553600000003, -101.00284549999999],
+                {}
+            ).addTo(marker_cluster_3c31cbecdef84b39bdb20086131f6803);
+        
+    
+        var popup_b9c707c3f91c4452a39e8f0df8933ed0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_10ddcb414a564847a7d1440c05575986 = $(`<div id="html_10ddcb414a564847a7d1440c05575986" style="width: 100.0%; height: 100.0%;"><strong>OFICINA: </strong>Pueblo Nuevo  <strong>TELEFONO: </strong>429-695-02-82;   <strong>TITULAR: </strong>Enc: C.P. Carolina Cervantes Quezada,  ccervantesq@guanajuato.gob.mx</div>`)[0];
+            popup_b9c707c3f91c4452a39e8f0df8933ed0.setContent(html_10ddcb414a564847a7d1440c05575986);
+        
+
+        marker_bd7bee448c2648e2abeac1311dba5467.bindPopup(popup_b9c707c3f91c4452a39e8f0df8933ed0)
+        ;
+
+        
+    
+    
+            var marker_3ceebed9c983495a841d5037808f6c7e = L.marker(
+                [14.636653299999999, -90.5101264],
+                {}
+            ).addTo(marker_cluster_3c31cbecdef84b39bdb20086131f6803);
+        
+    
+        var popup_a9be6449f5ba4c10a40ed4374354584c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3a3b5063bc71428fa6de7a1172eb31e0 = $(`<div id="html_3a3b5063bc71428fa6de7a1172eb31e0" style="width: 100.0%; height: 100.0%;"><strong>OFICINA: </strong>Purisima del Rincon  <strong>TELEFONO: </strong>476-743-00-24;   <strong>TITULAR: </strong>C.P. Juan Carlos Gonzalez Jacinto, jcgonzalezj@guanajuato.gob.mx</div>`)[0];
+            popup_a9be6449f5ba4c10a40ed4374354584c.setContent(html_3a3b5063bc71428fa6de7a1172eb31e0);
+        
+
+        marker_3ceebed9c983495a841d5037808f6c7e.bindPopup(popup_a9be6449f5ba4c10a40ed4374354584c)
+        ;
+
+        
+    
+    
+            var marker_e7af4e2203e7410bbb89cc32a721aaa2 = L.marker(
+                [21.017226500000003, -101.2551898],
+                {}
+            ).addTo(marker_cluster_3c31cbecdef84b39bdb20086131f6803);
+        
+    
+        var popup_62c80ffa50ee4afb8419a9763c71f1bd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9e1f82d101d64a18909222948bfc57a0 = $(`<div id="html_9e1f82d101d64a18909222948bfc57a0" style="width: 100.0%; height: 100.0%;"><strong>OFICINA: </strong>Romita  <strong>TELEFONO: </strong>432-745-27-90;   <strong>TITULAR: </strong>C.P. Guillermo Garnica Rangel, ggarnica@guanajuato.gob.mx</div>`)[0];
+            popup_62c80ffa50ee4afb8419a9763c71f1bd.setContent(html_9e1f82d101d64a18909222948bfc57a0);
+        
+
+        marker_e7af4e2203e7410bbb89cc32a721aaa2.bindPopup(popup_62c80ffa50ee4afb8419a9763c71f1bd)
+        ;
+
+        
+    
+    
+            var marker_94d7252c097a41a09acd62d8fd22d864 = L.marker(
+                [20.5721858, -101.1999657],
+                {}
+            ).addTo(marker_cluster_3c31cbecdef84b39bdb20086131f6803);
+        
+    
+        var popup_d93e0f2093fb47de845c5beb5d1c208c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5ac3ace63d3146559eac08352c008a32 = $(`<div id="html_5ac3ace63d3146559eac08352c008a32" style="width: 100.0%; height: 100.0%;"><strong>OFICINA: </strong>Salamanca I  <strong>TELEFONO: </strong>464-648-00-71;   <strong>TITULAR: </strong>C.P. Xochitl Leticia Baez Herrera, xbaezh@guanajuato.gob.mx</div>`)[0];
+            popup_d93e0f2093fb47de845c5beb5d1c208c.setContent(html_5ac3ace63d3146559eac08352c008a32);
+        
+
+        marker_94d7252c097a41a09acd62d8fd22d864.bindPopup(popup_d93e0f2093fb47de845c5beb5d1c208c)
+        ;
+
+        
+    
+    
+            var marker_57f9bbeb5aa541309f044792c060d407 = L.marker(
+                [20.5848254, -101.214925],
+                {}
+            ).addTo(marker_cluster_3c31cbecdef84b39bdb20086131f6803);
+        
+    
+        var popup_a6a9b705d36d49ed8712e83f77ba6e26 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_828d000ea00641ed923f9cf56a2f243a = $(`<div id="html_828d000ea00641ed923f9cf56a2f243a" style="width: 100.0%; height: 100.0%;"><strong>OFICINA: </strong>Salamanca II (Galerias)  <strong>TELEFONO: </strong>464-647-39-21;   <strong>TITULAR: </strong>C.P. Lorena Gamez Gonzalez, lgamezg@guanajuato.gob.mx</div>`)[0];
+            popup_a6a9b705d36d49ed8712e83f77ba6e26.setContent(html_828d000ea00641ed923f9cf56a2f243a);
+        
+
+        marker_57f9bbeb5aa541309f044792c060d407.bindPopup(popup_a6a9b705d36d49ed8712e83f77ba6e26)
+        ;
+
+        
+    
+    
+            var marker_5ca38dd3319b453aa0e4f1557c13fb77 = L.marker(
+                [20.2127603, -100.87992750000001],
+                {}
+            ).addTo(marker_cluster_3c31cbecdef84b39bdb20086131f6803);
+        
+    
+        var popup_c20de2279f684dff97b094f4a83b730c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1f7848cb702145cdb2779e3e2f23c584 = $(`<div id="html_1f7848cb702145cdb2779e3e2f23c584" style="width: 100.0%; height: 100.0%;"><strong>OFICINA: </strong>Salvatierra  <strong>TELEFONO: </strong>466-663-00-08;   <strong>TITULAR: </strong>Lic. Ricardo Mendez Rodriguez, rmendezr@guanajuato.gob.mx</div>`)[0];
+            popup_c20de2279f684dff97b094f4a83b730c.setContent(html_1f7848cb702145cdb2779e3e2f23c584);
+        
+
+        marker_5ca38dd3319b453aa0e4f1557c13fb77.bindPopup(popup_c20de2279f684dff97b094f4a83b730c)
+        ;
+
+        
+    
+    
+            var marker_eabbe475fc7a42958b246c29970cf875 = L.marker(
+                [21.465670000000003, -100.8718671],
+                {}
+            ).addTo(marker_cluster_3c31cbecdef84b39bdb20086131f6803);
+        
+    
+        var popup_d7548252026245c987877cc39dc8c369 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_37b3e2fbcfbd4e409d24f5cc2970f2a1 = $(`<div id="html_37b3e2fbcfbd4e409d24f5cc2970f2a1" style="width: 100.0%; height: 100.0%;"><strong>OFICINA: </strong>San Diego de la Union  <strong>TELEFONO: </strong>418-684-02-85;   <strong>TITULAR: </strong>C.P. Martin Soto Mendez, msotom@guanajuato.gob.mx</div>`)[0];
+            popup_d7548252026245c987877cc39dc8c369.setContent(html_37b3e2fbcfbd4e409d24f5cc2970f2a1);
+        
+
+        marker_eabbe475fc7a42958b246c29970cf875.bindPopup(popup_d7548252026245c987877cc39dc8c369)
+        ;
+
+        
+    
+    
+            var marker_312724d6d9f54da8b359a32d2c67c24b = L.marker(
+                [21.4786448, -101.2143907],
+                {}
+            ).addTo(marker_cluster_3c31cbecdef84b39bdb20086131f6803);
+        
+    
+        var popup_cdccaf86a85c4a5d8b6e71dc6d0273db = L.popup({"maxWidth": "100%"});
+
+        
+            var html_081adf66d5f1417c862173c1b3382d02 = $(`<div id="html_081adf66d5f1417c862173c1b3382d02" style="width: 100.0%; height: 100.0%;"><strong>OFICINA: </strong>San Felipe  <strong>TELEFONO: </strong>428-685-03-16;   <strong>TITULAR: </strong>C.P. Victor Manuel Rojas Hernandez, vrojash@guanajuato.gob.mx</div>`)[0];
+            popup_cdccaf86a85c4a5d8b6e71dc6d0273db.setContent(html_081adf66d5f1417c862173c1b3382d02);
+        
+
+        marker_312724d6d9f54da8b359a32d2c67c24b.bindPopup(popup_cdccaf86a85c4a5d8b6e71dc6d0273db)
+        ;
+
+        
+    
+    
+            var marker_31260edbb433496ba15b7e3c1c8de0f8 = L.marker(
+                [21.0141235, -101.85908020000001],
+                {}
+            ).addTo(marker_cluster_3c31cbecdef84b39bdb20086131f6803);
+        
+    
+        var popup_2b27a5caaed9404db2d58c91a09b6963 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ae2c7d0f1af74434955c0ec57735e48f = $(`<div id="html_ae2c7d0f1af74434955c0ec57735e48f" style="width: 100.0%; height: 100.0%;"><strong>OFICINA: </strong>San Francisco del Rincon  <strong>TELEFONO: </strong>476-743-05-74;   <strong>TITULAR: </strong>C.P. Margarita Evaristo Rosales, mevaristor@guanajuato.gob.mx</div>`)[0];
+            popup_2b27a5caaed9404db2d58c91a09b6963.setContent(html_ae2c7d0f1af74434955c0ec57735e48f);
+        
+
+        marker_31260edbb433496ba15b7e3c1c8de0f8.bindPopup(popup_2b27a5caaed9404db2d58c91a09b6963)
+        ;
+
+        
+    
+    
+            var marker_266a8e85a33f4622b9e949f7d3775d58 = L.marker(
+                [44.828163, 5.919838700000001],
+                {}
+            ).addTo(marker_cluster_3c31cbecdef84b39bdb20086131f6803);
+        
+    
+        var popup_b82b84aec3784eb4940a2f1f954e731b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6e05ed7b732f4c7499d8a24add515473 = $(`<div id="html_6e05ed7b732f4c7499d8a24add515473" style="width: 100.0%; height: 100.0%;"><strong>OFICINA: </strong>San Jose Iturbide  <strong>TELEFONO: </strong>419-198-00-24;   <strong>TITULAR: </strong>C.P. Ma. Guadalupe Ledesma Basaldua, mledesmab@guanajuato</div>`)[0];
+            popup_b82b84aec3784eb4940a2f1f954e731b.setContent(html_6e05ed7b732f4c7499d8a24add515473);
+        
+
+        marker_266a8e85a33f4622b9e949f7d3775d58.bindPopup(popup_b82b84aec3784eb4940a2f1f954e731b)
+        ;
+
+        
+    
+    
+            var marker_9c1846b4fa3644d1b2030c479117d343 = L.marker(
+                [21.9618216, -102.3449558],
+                {}
+            ).addTo(marker_cluster_3c31cbecdef84b39bdb20086131f6803);
+        
+    
+        var popup_115dc03c155d49369c86be391847a0a1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6ce473f24d4f4af89b4fea7891e09ebb = $(`<div id="html_6ce473f24d4f4af89b4fea7891e09ebb" style="width: 100.0%; height: 100.0%;"><strong>OFICINA: </strong>San Luis de la Paz  <strong>TELEFONO: </strong>468-688-22-83;   <strong>TITULAR: </strong>C.P. Leticia Mandujano Leon, lmandujano@guanajuato.gob.mx</div>`)[0];
+            popup_115dc03c155d49369c86be391847a0a1.setContent(html_6ce473f24d4f4af89b4fea7891e09ebb);
+        
+
+        marker_9c1846b4fa3644d1b2030c479117d343.bindPopup(popup_115dc03c155d49369c86be391847a0a1)
+        ;
+
+        
+    
+    
+            var marker_1f13118a2af54cb59830a872b3f6154e = L.marker(
+                [20.9125668, -100.7175364],
+                {}
+            ).addTo(marker_cluster_3c31cbecdef84b39bdb20086131f6803);
+        
+    
+        var popup_5862aebedf0c4ce2af3952cc40d262f2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1253fff3e2fe49009accf2ab9a490820 = $(`<div id="html_1253fff3e2fe49009accf2ab9a490820" style="width: 100.0%; height: 100.0%;"><strong>OFICINA: </strong>San Miguel de Allende  <strong>TELEFONO: </strong>415-152-00-14;   <strong>TITULAR: </strong>Lic. Gabriela Griselda Maldonado Garcia, gmaldonado@guanajuato.gob.mx</div>`)[0];
+            popup_5862aebedf0c4ce2af3952cc40d262f2.setContent(html_1253fff3e2fe49009accf2ab9a490820);
+        
+
+        marker_1f13118a2af54cb59830a872b3f6154e.bindPopup(popup_5862aebedf0c4ce2af3952cc40d262f2)
+        ;
+
+        
+    
+    
+            var marker_5695e7cfab384b4199e6732c8ce914b2 = L.marker(
+                [20.34574752, -102.0210113],
+                {}
+            ).addTo(marker_cluster_3c31cbecdef84b39bdb20086131f6803);
+        
+    
+        var popup_dadbd2aa44ec4bda91c733ba42d26d4a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c29c1acf7c7f484c8407a0950a76913d = $(`<div id="html_c29c1acf7c7f484c8407a0950a76913d" style="width: 100.0%; height: 100.0%;"><strong>OFICINA: </strong>Santa Ana Pacueco  <strong>TELEFONO: </strong>352-526-27-62;   <strong>TITULAR: </strong>C.P Carolina Estrada Guerrero , cestradag@guanajuato.gob.mx</div>`)[0];
+            popup_dadbd2aa44ec4bda91c733ba42d26d4a.setContent(html_c29c1acf7c7f484c8407a0950a76913d);
+        
+
+        marker_5695e7cfab384b4199e6732c8ce914b2.bindPopup(popup_dadbd2aa44ec4bda91c733ba42d26d4a)
+        ;
+
+        
+    
+    
+            var marker_1dbb95d9a18a4cfab9ecf523f9b7997e = L.marker(
+                [20.17162001, -100.9943073],
+                {}
+            ).addTo(marker_cluster_3c31cbecdef84b39bdb20086131f6803);
+        
+    
+        var popup_a3971b84cbe2476bb2400c1115fca027 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ab5ebc9015264326af3117688df58ce7 = $(`<div id="html_ab5ebc9015264326af3117688df58ce7" style="width: 100.0%; height: 100.0%;"><strong>OFICINA: </strong>Santiago Maravatio  <strong>TELEFONO: </strong>466-451-02-76;   <strong>TITULAR: </strong>C. Arlet Nayeli Galarde Ledesma, agalardel@guanajuato.gob.mx</div>`)[0];
+            popup_a3971b84cbe2476bb2400c1115fca027.setContent(html_ab5ebc9015264326af3117688df58ce7);
+        
+
+        marker_1dbb95d9a18a4cfab9ecf523f9b7997e.bindPopup(popup_a3971b84cbe2476bb2400c1115fca027)
+        ;
+
+        
+    
+    
+            var marker_0fcf2bb2cc104f76a4deccb535c184aa = L.marker(
+                [20.9435213, -101.425398],
+                {}
+            ).addTo(marker_cluster_3c31cbecdef84b39bdb20086131f6803);
+        
+    
+        var popup_ea848d50633f463e8642fe2fc6d92658 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4ecdcb3ff7b6438abf1b56607c4cd517 = $(`<div id="html_4ecdcb3ff7b6438abf1b56607c4cd517" style="width: 100.0%; height: 100.0%;"><strong>OFICINA: </strong>Silao  <strong>TELEFONO: </strong>472-723-25-83;   <strong>TITULAR: </strong>Lic. Claudia Gabriela Ledesma Garcia, cledesmag@guanajuato.gob.mx</div>`)[0];
+            popup_ea848d50633f463e8642fe2fc6d92658.setContent(html_4ecdcb3ff7b6438abf1b56607c4cd517);
+        
+
+        marker_0fcf2bb2cc104f76a4deccb535c184aa.bindPopup(popup_ea848d50633f463e8642fe2fc6d92658)
+        ;
+
+        
+    
+    
+            var marker_63f5f1a9a06e4fc2a3469700b594ef01 = L.marker(
+                [20.9380777, -101.4258963],
+                {}
+            ).addTo(marker_cluster_3c31cbecdef84b39bdb20086131f6803);
+        
+    
+        var popup_37b0ab9c196243cbaac5d418d49e1c0c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_832120a43df243b9854aab3634c89e51 = $(`<div id="html_832120a43df243b9854aab3634c89e51" style="width: 100.0%; height: 100.0%;"><strong>OFICINA: </strong>Puerto Interior  <strong>TELEFONO: </strong>472-151-07-00;   <strong>TITULAR: </strong>Lic. Bianca Ivette Tristan Hernandez, btristanh@guanajuato.gob.mx</div>`)[0];
+            popup_37b0ab9c196243cbaac5d418d49e1c0c.setContent(html_832120a43df243b9854aab3634c89e51);
+        
+
+        marker_63f5f1a9a06e4fc2a3469700b594ef01.bindPopup(popup_37b0ab9c196243cbaac5d418d49e1c0c)
+        ;
+
+        
+    
+    
+            var marker_5193544e0f364517a135d421b8f578d7 = L.marker(
+                [20.0032062, -100.516272],
+                {}
+            ).addTo(marker_cluster_3c31cbecdef84b39bdb20086131f6803);
+        
+    
+        var popup_03f5c50c79464207826c663c9e5a517e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_20563674b7f84f888255fda918410f4d = $(`<div id="html_20563674b7f84f888255fda918410f4d" style="width: 100.0%; height: 100.0%;"><strong>OFICINA: </strong>Tarandacuao  <strong>TELEFONO: </strong>421-474-01-24;   <strong>TITULAR: </strong>Lic. Victor Jasso Montoya , vjassomo@guanajuato.gob.mx</div>`)[0];
+            popup_03f5c50c79464207826c663c9e5a517e.setContent(html_20563674b7f84f888255fda918410f4d);
+        
+
+        marker_5193544e0f364517a135d421b8f578d7.bindPopup(popup_03f5c50c79464207826c663c9e5a517e)
+        ;
+
+        
+    
+    
+            var marker_a3d6f28717594aaeb8abb902cbb742d5 = L.marker(
+                [20.2874532, -100.7556186],
+                {}
+            ).addTo(marker_cluster_3c31cbecdef84b39bdb20086131f6803);
+        
+    
+        var popup_d347d4f8f67c46c0bc273264c0697f50 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c288edacac36454b910b0cf445232c35 = $(`<div id="html_c288edacac36454b910b0cf445232c35" style="width: 100.0%; height: 100.0%;"><strong>OFICINA: </strong>Tarimoro  <strong>TELEFONO: </strong>466-664-00-13;   <strong>TITULAR: </strong>Lic. Basilio Ramirez Flores, bramirezf@guanajuato.gob.mx</div>`)[0];
+            popup_d347d4f8f67c46c0bc273264c0697f50.setContent(html_c288edacac36454b910b0cf445232c35);
+        
+
+        marker_a3d6f28717594aaeb8abb902cbb742d5.bindPopup(popup_d347d4f8f67c46c0bc273264c0697f50)
+        ;
+
+        
+    
+    
+            var marker_6d0d1c3eec374908bf5a1ed01a8dae47 = L.marker(
+                [20.1334794, -101.1879066],
+                {}
+            ).addTo(marker_cluster_3c31cbecdef84b39bdb20086131f6803);
+        
+    
+        var popup_361fc3dbffa54f868bb50ef2d0f6c56b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3339b16e2bfe44519f221170e5b76957 = $(`<div id="html_3339b16e2bfe44519f221170e5b76957" style="width: 100.0%; height: 100.0%;"><strong>OFICINA: </strong>Uriangato  <strong>TELEFONO: </strong>445-457-60-90;   <strong>TITULAR: </strong>Enc.: C Maritzabel Patino Torres, lmoralesg@guanajuato.gob.mx</div>`)[0];
+            popup_361fc3dbffa54f868bb50ef2d0f6c56b.setContent(html_3339b16e2bfe44519f221170e5b76957);
+        
+
+        marker_6d0d1c3eec374908bf5a1ed01a8dae47.bindPopup(popup_361fc3dbffa54f868bb50ef2d0f6c56b)
+        ;
+
+        
+    
+    
+            var marker_219c72a7a826434683a95f0b4bf6750d = L.marker(
+                [25.4546718, -100.850791],
+                {}
+            ).addTo(marker_cluster_3c31cbecdef84b39bdb20086131f6803);
+        
+    
+        var popup_87ccaecd7c2c461ab3b5b7f2672d0ca1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6774a2997bb24f2d9fe1ba6a1eaf4782 = $(`<div id="html_6774a2997bb24f2d9fe1ba6a1eaf4782" style="width: 100.0%; height: 100.0%;"><strong>OFICINA: </strong>Valle de Santiago  <strong>TELEFONO: </strong>456-643-09-82;   <strong>TITULAR: </strong>C. Luis Eduardo Moreno Estrada, lmorenoe@guanajuato.gob.mx</div>`)[0];
+            popup_87ccaecd7c2c461ab3b5b7f2672d0ca1.setContent(html_6774a2997bb24f2d9fe1ba6a1eaf4782);
+        
+
+        marker_219c72a7a826434683a95f0b4bf6750d.bindPopup(popup_87ccaecd7c2c461ab3b5b7f2672d0ca1)
+        ;
+
+        
+    
+    
+            var marker_339c5f2610f94f3c9360135478ca7653 = L.marker(
+                [35.9113041, -83.86850720000001],
+                {}
+            ).addTo(marker_cluster_3c31cbecdef84b39bdb20086131f6803);
+        
+    
+        var popup_feef0f37aa084d7ca65fcacfba37abcc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4e1248f6272640bba05c67e53d2c7d81 = $(`<div id="html_4e1248f6272640bba05c67e53d2c7d81" style="width: 100.0%; height: 100.0%;"><strong>OFICINA: </strong>Victoria  <strong>TELEFONO: </strong>419-293-90-70;   <strong>TITULAR: </strong>Lic. Ma. Lorenza Vega Aguilar, lvegaa@guanajuato.gob.mx</div>`)[0];
+            popup_feef0f37aa084d7ca65fcacfba37abcc.setContent(html_4e1248f6272640bba05c67e53d2c7d81);
+        
+
+        marker_339c5f2610f94f3c9360135478ca7653.bindPopup(popup_feef0f37aa084d7ca65fcacfba37abcc)
+        ;
+
+        
+    
+    
+            var marker_9f06e154703e4cf1873df023fdbc53cb = L.marker(
+                [20.519114000000002, -100.9993334],
+                {}
+            ).addTo(marker_cluster_3c31cbecdef84b39bdb20086131f6803);
+        
+    
+        var popup_f73f0fa652fb49b496e60216d109a69b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c3647ca1456c451592f4f66016c89f87 = $(`<div id="html_c3647ca1456c451592f4f66016c89f87" style="width: 100.0%; height: 100.0%;"><strong>OFICINA: </strong>Villagran  <strong>TELEFONO: </strong>411-165-00-91;   <strong>TITULAR: </strong>Lic. Federico Guzman Arreola, fguzmana@guanajuato.gob.mx</div>`)[0];
+            popup_f73f0fa652fb49b496e60216d109a69b.setContent(html_c3647ca1456c451592f4f66016c89f87);
+        
+
+        marker_9f06e154703e4cf1873df023fdbc53cb.bindPopup(popup_f73f0fa652fb49b496e60216d109a69b)
+        ;
+
+        
+    
+    
+            var marker_79ce43a8229e44fb8ab3e0ac395d38b7 = L.marker(
+                [20.214130800000003, -101.1286531],
+                {}
+            ).addTo(marker_cluster_3c31cbecdef84b39bdb20086131f6803);
+        
+    
+        var popup_626ccfa28f56486987ac327524240040 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_019e737139644076b247322c7652e7b6 = $(`<div id="html_019e737139644076b247322c7652e7b6" style="width: 100.0%; height: 100.0%;"><strong>OFICINA: </strong>Yuriria  <strong>TELEFONO: </strong>445-168-24-33;   <strong>TITULAR: </strong>C.P. Nancy Gabriela Ruiz Villagomez, gruizvilla@guanajuato.gob.mx</div>`)[0];
+            popup_626ccfa28f56486987ac327524240040.setContent(html_019e737139644076b247322c7652e7b6);
+        
+
+        marker_79ce43a8229e44fb8ab3e0ac395d38b7.bindPopup(popup_626ccfa28f56486987ac327524240040)
+        ;
+
+        
+    
+</script>
