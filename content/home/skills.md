@@ -9,26 +9,38 @@ headless: true
 # Order that this section appears on the page.
 weight: 30
 
-title: Skills
+title: Habilidades
 subtitle:
 
 # Showcase personal skills or business features.
 # - Add/remove as many `feature` blocks below as you like.
 # - For available icons, see: https://wowchemy.com/docs/page-builder/#icons
 feature:
-- description: 90%
+- description: Evaluación de políticas públicas, regulación económica y finanzas públicas
+  icon: chess-knight
+  icon_pack: fas
+  name: Análisis Económico
+- description: Manejo de bases de datos, web-scrapping y mapeo de información
+  icon: python
+  icon_pack: fab
+  name: Ciencia de Datos
+- description: Programación y visualización de datos
   icon: r-project
   icon_pack: fab
-  name: R
-- description: 100%
+  name: Programación
+- description: Econometría, series de tiempo y elaboración de pronósticos
   icon: chart-line
   icon_pack: fas
-  name: Statistics
-- description: 10%
-  icon: camera-retro
+  name: Modelación Estadística
+- description: Epidemiología, redes, deportes y elecciones
+  icon: atom
   icon_pack: fas
-  name: Photography
-
+  name: Modelación Matemática
+- description: Informes Ejecutivos e Infografías
+  icon: microsoft
+  icon_pack: fab
+  name: Excelente redacción
+  
 # Uncomment to use emoji icons.
 #- icon: ":smile:"
 #  icon_pack: "emoji"
