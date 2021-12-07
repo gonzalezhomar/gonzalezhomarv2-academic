@@ -16,44 +16,48 @@ site_type: Person
 local_business_type: ''
 org_name: ''
 description: ''
-twitter: ''
+twitter: 'https://twitter.com/homargonzalez'
 
 # Contact (edit or remove options as required)
 
-email: test@example.org
-phone: 888 888 88 88
+email: gonzalezhomar@gmail.com
+phone: 428 100 4700
 address:
-  street: 450 Serra Mall
-  city: Stanford
-  region: CA
-  postcode: '94305'
-  country: United States
-  country_code: US
+  street: Circ. Jardín del Rey 228
+  city: León
+  region: Guanajuato
+  postcode: '37544'
+  country: México
+  country_code: MX
 coordinates:
-  latitude: '37.4275'
-  longitude: '-122.1697'
-directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
+  latitude: '21.00364675985172'
+  longitude: '-101.24028141735299'
+directions: Entrando en las oficinas, en el piso más elevado
 office_hours:
-  - 'Monday 10:00 to 13:00'
-  - 'Wednesday 09:00 to 10:00'
+  - 'Lunes a viernes 10:00 to 14:00'
+#  - 'Wednesday 09:00 to 10:00'
 appointment_url: 'https://calendly.com'
 contact_links:
   - icon: twitter
     icon_pack: fab
     name: DM Me
     link: 'https://twitter.com/Twitter'
-  - icon: skype
-    icon_pack: fab
-    name: Skype Me
-    link: 'skype:echo123?call'
-  - icon: keybase
-    icon_pack: fab
-    name: Chat on Keybase
-    link: 'https://keybase.io/'
-  - icon: comments
-    icon_pack: fas
-    name: Discuss on Forum
-    link: 'https://discourse.gohugo.io'
+  - icon: "linkedin"
+    icon_pack: "fab"
+    name: "LinkedIn"
+    link: "https://www.linkedin.com/in/omar-humberto-gonzalez-%C3%A1vila-ab674128/"
+#  - icon: skype
+#    icon_pack: fab
+#    name: Skype Me
+#    link: 'skype:echo123?call'
+#  - icon: keybase
+#    icon_pack: fab
+#    name: Chat on Keybase
+#    link: 'https://keybase.io/'
+#  - icon: comments
+#    icon_pack: fas
+#    name: Discuss on Forum
+#    link: 'https://discourse.gohugo.io'
 
 # Site header
 
@@ -70,15 +74,16 @@ main_menu:
 
 date_format: 'Jan 2, 2006'
 time_format: '3:04 PM'
-address_format: en-us
+address_format: es-mx
 
 # Site features
 
 highlight: true
 highlight_languages:
   - r
-math: false
-diagram: false
+  - python
+math: true
+diagram: true
 privacy_pack: false
 edit_page:
   repo_url: ''
@@ -95,6 +100,7 @@ show_related:
   project: true
   publication: true
   event: true
+  talk: true
 reading_time: true
 section_pager: false
 docs_section_pager: true
@@ -113,7 +119,11 @@ avatar:
 publications:
   date_format: January 2006
   citation_style: apa
-projects:
+projects: # Views for associated content.
+#   1: List
+#   2: Compact
+#   3: Card
+#   4: Citation (publications only)
   post_view: 2
   publication_view: 2
   talk_view: 2
