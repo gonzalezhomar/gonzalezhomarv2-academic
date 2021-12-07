@@ -79,4 +79,4 @@ Hola, soy Omar, economista de profesión con una amplia experiencia laboral en f
 
 En mi tiempo libre soy amante del cine, tv, musica, libros y videojuegos.
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/cv.pdf" "newtab" >}}resumé{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} Descarga mi {{< staticref "uploads/cv.pdf" "newtab" >}}CV{{< /staticref >}}.
