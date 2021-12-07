@@ -39,3 +39,5 @@ Transforme un par de fotos, con el album de nuestra boda:
 ![imagen](original2.JPG)
 
 ![imagen](mosaico2.jpeg)
+
+PD. A lo mejor luego divulgo el secreto, mientras tanto escribeme si quieres una.
