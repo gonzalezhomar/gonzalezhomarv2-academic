@@ -12,8 +12,8 @@ tags:
 - Econometría
 - Python
 - Jupyter
-categories:
-- Proyectos
+categories: 
+- Pronósticos
 date: 2021-09-05T00:59:25-06:00
 lastmod: 2021-09-05T00:59:25-06:00
 featured: false
