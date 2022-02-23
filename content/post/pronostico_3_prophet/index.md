@@ -13,7 +13,7 @@ tags:
 - Python
 - Jupyter
 categories: 
-- Proyectos
+- Pronósticos
 date: 2021-04-09T00:59:46-06:00
 lastmod: 2021-04-09T00:59:46-06:00
 featured: false
