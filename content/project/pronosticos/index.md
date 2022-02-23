@@ -69,6 +69,6 @@ Sin embargo, en este primer ejercicio, no quedé conforme con los [resultados](h
 - En la [parte 5](https://gonzalezhomar.netlify.app/post/pronr2_5neuralprophet/) incluí un hermano de Prophet llamado [NeuralProphet](https://github.com/ourownstory/neural_prophet) similar a Prophet, pero que utiliza redes neuronales.
 
 La primer evaluación de este segundo round, la pueden consultar aquí:
-[Evaluación]({{< relref "/post/pronr2_6eval1/" >}})
+![Evaluación](https://gonzalezhomar.netlify.app/post/pronr2_6eval1/)
 
 El contenido de este proyecto se puede encontrar en mi repositorio de [Github](https://github.com/gonzalezhomar/articulos_pronosticos).
