@@ -6,3 +6,4 @@
 public/
 jsconfig.json
 node_modules/
+config/_default/debug.log
